@@ -141,7 +141,7 @@
     {:else}
       <button
         on:click={() => (showForm = true)}
-        class="btn btn-outline btn-info block mx-auto my-4"
+        class="btn btn-accent block mx-auto my-4"
       >
         Add a Link
       </button>

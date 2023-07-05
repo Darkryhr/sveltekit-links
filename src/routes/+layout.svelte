@@ -6,6 +6,6 @@
   $userData;
 </script>
 
-<div class="min-h-screen flex flex-col">
+<div class="min-h-screen flex flex-col bg-base-200">
   <slot />
 </div>

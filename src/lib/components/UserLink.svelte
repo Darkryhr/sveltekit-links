@@ -1,13 +1,11 @@
 <script>
-  export let icon = 'default';
   export let url = 'foo';
   export let title = 'some title';
 </script>
 
 <a
   href={url}
-  class="stack w-full max-w-md text-center bg-base-300 flex justify-center items-center p-4 rounded-lg not-prose no-underline"
+  class="max-w-md text-center flex justify-center items-center px-16 py-4 not-prose card border border-base-content rounded-md"
 >
-  <img src={`/${icon}.png`} alt={icon} width="32" height="32" class="w-8" />
-  <span class="text-lg text-white font-bold">{title}</span>
+  <span class="text-white">{title}</span>
 </a>
